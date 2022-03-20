@@ -40,7 +40,7 @@ export default function App() {
       ...style,
       color: hslToRgb(color)
     });
-  }, [color,style]);
+  }, [color]);
 
   const handleChange = useCallback((newValue) => setValue(newValue), []);
 
